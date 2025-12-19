@@ -7,13 +7,13 @@ import { getAnalytics, isSupported } from "firebase/analytics"
 
 // Configuração do Firebase
 const firebaseConfig = {
-  apiKey: "00000000000000000",
-  authDomain: "000000000000000000",
-  projectId: "000000000000",
-  storageBucket: "00000000000000000",
-  messagingSenderId: "00000000000000",
-  appId: "00000000000000",
-  measurementId: "000000000000"
+  apiKey: "AIzaSyBxg_d2L0LM-xdI8iMpn3M2wkfoQfF8Skg",
+  authDomain: "boobiegoods-65eea.firebaseapp.com",
+  projectId: "boobiegoods-65eea",
+  storageBucket: "boobiegoods-65eea.firebasestorage.app",
+  messagingSenderId: "378954928356",
+  appId: "1:378954928356:web:3b25722ad633e905239cf1",
+  measurementId: "G-FC4GJ8EF6D"
 }
 
 // Inicializa Firebase
@@ -33,3 +33,4 @@ if (typeof window !== "undefined") {
 }
 
 export { app, db, auth, storage, analytics }
+
